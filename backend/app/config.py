@@ -36,7 +36,7 @@ class Settings:
         self.enable_failure_simulation: bool = raw_sim in ("true", "1", "yes")
         
         # Model
-        self.model: str = os.getenv("LLM_MODEL", "gemini/gemini-2.0-flash")
+        self.model: str = os.getenv("LLM_MODEL", "gemini/gemini-3.5-flash")
 
 
 settings = Settings()

@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   backend:
     build:
@@ -13,7 +11,7 @@ services:
       - LLM_API_KEYS=${LLM_API_KEYS:-key1_placeholder,key2_placeholder}
       - ALLOWED_ORIGINS=${ALLOWED_ORIGINS:-http://localhost:3000,http://127.0.0.1:3000}
       - ENABLE_FAILURE_SIMULATION=${ENABLE_FAILURE_SIMULATION:-true}
-      - LLM_MODEL=${LLM_MODEL:-gemini/gemini-2.0-flash}
+      - LLM_MODEL=${LLM_MODEL:-gemini/gemini-3.5-flash}
       - PORT=8000
     volumes:
       - sqlite_data:/data
