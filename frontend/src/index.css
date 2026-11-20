@@ -1,0 +1,41 @@
+:root {
+  --bg-color: #0f172a;
+  --surface-color: #1e293b;
+  --surface-border: #334155;
+  --surface-hover: #283548;
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --accent-cache: #10b981;
+  --accent-cache-bg: rgba(16, 185, 129, 0.15);
+  --accent-live: #3b82f6;
+  --accent-live-bg: rgba(59, 130, 246, 0.15);
+  --accent-error: #ef4444;
+  --accent-error-bg: rgba(239, 68, 68, 0.15);
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
