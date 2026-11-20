@@ -6,9 +6,9 @@ A production-grade, resilient full-stack LLM chatbot system featuring automated 
 
 ## 1. Live URLs
 
-- **Frontend Application**: [https://lyftr-llm-chatbot.vercel.app](https://lyftr-llm-chatbot.vercel.app) *(or live deployment URL)*
-- **Backend API Gateway**: [https://lyftr-llm-backend.onrender.com](https://lyftr-llm-backend.onrender.com)
-- **Health Check Endpoint**: [https://lyftr-llm-backend.onrender.com/health](https://lyftr-llm-backend.onrender.com/health)
+- **Frontend Application**: [https://lyftr-llm-chatbot.vercel.app](https://lyftr-llm-chatbot.vercel.app)
+- **Backend API Gateway**: [https://lyftr-llm-chatbot.onrender.com](https://lyftr-llm-chatbot.onrender.com)
+- **Health Check Endpoint**: [https://lyftr-llm-chatbot.onrender.com/health](https://lyftr-llm-chatbot.onrender.com/health)
 
 > Both frontend and backend are deployed, public, and connected with full CORS support.
 
